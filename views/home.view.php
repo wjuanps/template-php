@@ -1,6 +1,8 @@
 <?php include_once 'views/partials/head.php'; ?>
 
-  <form action="/names" method="POST">
+  <h1>Home Page</h1>
+
+  <!-- <form action="/names" method="POST">
     <input type="text" name="name" />
     
     <button>Submit</button>
@@ -10,6 +12,6 @@
     <?php foreach($users as $user) : ?>
       <li><span><?= $user->id ?></span>.&nbsp<?= $user->name ?></li>
     <?php endforeach ?>
-  </ol>
+  </ol> -->
 
 <?php include_once 'views/partials/footer.php'; ?>

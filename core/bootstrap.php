@@ -1,6 +1,6 @@
 <?php
 
-require_once 'functions.php';
+require_once 'core/helpers.php';
 
 App::bind('config', require 'config.php');
 
