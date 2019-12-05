@@ -1,4 +1,4 @@
-<?php include_once 'views/partials/head.php'; ?>
+<?php include_once 'app/views/partials/head.php'; ?>
 
   <h1>All Users</h1>
 
@@ -14,4 +14,4 @@
     <?php endforeach ?>
   </ol>
 
-<?php include_once 'views/partials/footer.php'; ?>
+<?php include_once 'app/views/partials/footer.php'; ?>

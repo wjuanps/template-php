@@ -10,4 +10,4 @@
   </head>
 <body>
 
-<?php include_once 'views/partials/nav.php'; ?>
+<?php include_once 'app/views/partials/nav.php'; ?>
