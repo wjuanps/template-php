@@ -1,26 +1,15 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<?php include_once 'views/partials/head.php'; ?>
 
-    <title>Template PHP</title>
+  <form action="/names" method="POST">
+    <input type="text" name="name" />
+    
+    <button>Submit</button>
+  </form>
 
-  </head>
-  <body>
+  <ol style="list-style: none">
+    <?php foreach($users as $user) : ?>
+      <li><span><?= $user->id ?></span>.&nbsp<?= $user->name ?></li>
+    <?php endforeach ?>
+  </ol>
 
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="about">About page</a></li>
-      <li><a href="about/culture">Our Culture</a></li>
-      <li><a href="contact">Contact page</a></li>
-    </ul>
-
-    <ol>
-      <?php foreach($results as $result) : ?>
-        <li><?= utf8_encode($result->titulo) ?></li>
-      <?php endforeach ?>
-    </ol>
-  </body>
-</html>
+<?php include_once 'views/partials/footer.php'; ?>

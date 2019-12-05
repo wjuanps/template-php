@@ -1,5 +1,5 @@
 <?php
 
-$results = $query->selectAll('clazzs');
+$users = App::get('database')->selectAll('users');
 
 require_once 'views/index.view.php';
