@@ -7,6 +7,8 @@
 
     <title>Template PHP</title>
 
+    <link rel="stylesheet" href="public/css/styles.css">
+
   </head>
 <body>
 
