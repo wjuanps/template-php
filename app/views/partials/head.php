@@ -7,6 +7,8 @@
 
     <title>Template PHP</title>
 
+    <link rel="icon" href="public/favicon.ico" type="image/x-icon" />
+
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css" />
     <link rel="stylesheet" href="public/css/styles.css" />
