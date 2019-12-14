@@ -1,5 +1,17 @@
-<nav>
-  <ul>
-    <li><a href="/">Home</a></li>
-  </ul>
+<nav class="navbar navbar-light bg-light justify-content-between">
+  <a class="navbar-brand" href="/">Home</a>
+  <form class="form-inline">
+    <input 
+      class="form-control mr-sm-2" 
+      type="search" 
+      placeholder="Search" 
+      aria-label="Search">
+
+    <button 
+      class="btn btn-outline-info my-2 my-sm-0" 
+      type="submit">
+      
+      Search
+    </button>
+  </form>
 </nav>
